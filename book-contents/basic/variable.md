@@ -158,7 +158,8 @@ fn main() {
 $ cargo run
    Compiling variables v0.1.0 (file:///projects/variables)
    ...
-The value of x is: 12
+The value of x in the inner scope is: 12
+The value of x is: 6
 ```
 
 这和`mut`变量的使用是不同的，第二个let生成了完全不同的新变量，两个变量只是恰好拥有同样的名称，涉及一次内存对象的再分配
